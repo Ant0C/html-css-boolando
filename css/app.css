@@ -163,9 +163,9 @@ main > p{
     left: 0px;
 }
 
-/* RULES DEBUG */
+/* Footer */
 
-.debug footer{
+footer{
     height: 50px;
     background-color: black;
 }
