@@ -1,3 +1,5 @@
+/* GENERAL RULES */
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -12,22 +14,52 @@ ul,li{
     list-style-type: none;
 }
 
+/* HEADER */
+
 .logo{
     width: 90px;
 }
 
-.col-header{
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+}
+
+header > .row{
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 10px 0px;
+    background-color: orangered;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.col-logo{
+    position: relative;
+    left: 100px
+}
+
+.col-menu{
+    position: relative;
+    left: 255px;
+}
+
+.col-section,.col-logo,.col-menu{
     flex-basis: calc(100%/4);
 }
 
-.debug header{
-    height: 50px;
-    background-color: orange;
-}
+/* MAIN */
 
-.debug footer{
-    height: 50px;
-    background-color: black;
+main{
+    margin-top: 70px;
 }
 
 .container-1{
@@ -115,4 +147,11 @@ main > p{
     position: absolute;
     bottom: 70px;
     left: 0px;
+}
+
+/* RULES DEBUG */
+
+.debug footer{
+    height: 50px;
+    background-color: black;
 }
