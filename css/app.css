@@ -6,6 +6,7 @@
 
 img{
     max-width: 100%;
+    width: 200px;
 }
 
 .debug header{
@@ -30,10 +31,51 @@ img{
     justify-content: center;
 }
 
-.col{
-    flex-basis: calc(100%/6);
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
 }
 
-.img{
-    width: 200px;
+.price{
+    color: red;
+}
+
+.discount{
+    color: gray;
+    text-decoration: line-through;
+}
+
+main > p{
+    font-family: 'Robot', sans-serif;
+}
+
+.col{
+    flex-basis: calc(100%/6);
+    position: relative;
+}
+
+.tag-discount{
+    width: 39px;
+    height: 19px;
+    text-align: center;
+    padding: 4px 0px;
+    font-size: 10px;
+    color: white;
+    background: red;
+    position: absolute;
+    bottom: 70px;
+    left: 0px;
+}
+
+.tag-text{
+    width: 65px;
+    height: 19px;
+    text-align: center;
+    padding: 4px 0px;
+    font-size: 10px;
+    color: white;
+    background: green;
+    position: absolute;
+    bottom: 70px;
+    left: 41px;
 }
