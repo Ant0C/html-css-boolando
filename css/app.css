@@ -54,6 +54,19 @@ main > p{
     position: relative;
 }
 
+.tag-like{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding: 2px 2px;
+    font-size: 20px;
+    color: black;
+    background: white;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+
 .tag-discount{
     width: 39px;
     height: 19px;
